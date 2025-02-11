@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",          // Указываем целевую версию JavaScript (ES2015 и выше)
+    "module": "ESNext",          // Используем модули ESNext для совместимости с современными инструментами
+    "moduleResolution": "Node",  // Используем Node-подобное разрешение модулей
+    "esModuleInterop": true,     // Для совместимости с CommonJS модулями
+    "skipLibCheck": true,        // Пропускаем проверку библиотек (ускоряет сборку)
+    "strict": true,              // Включаем строгую типизацию для безопасности
+    "outDir": "./dist",          // Папка для собранных файлов
+    "declaration": true,         // Генерируем файлы типов (.d.ts)
+    "declarationMap": true,      // Генерируем карты деклараций
+    "sourceMap": true,           // Генерируем карты исходников для отладки
+    "allowJs": true              // Разрешаем использование JavaScript файлов в проекте
+  },
+  "include": [
+    "src/**/*.ts",               // Включаем все TypeScript файлы из папки src
+  ]
+}
