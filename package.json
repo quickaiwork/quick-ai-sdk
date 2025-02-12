@@ -1,7 +1,7 @@
 {
   "name": "quick-ai",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick AI SDK for easy AI integration",
   "url": "https://quickai.work",
   "repository": {
@@ -12,6 +12,11 @@
   "main": "dist/quick-ai-sdk.umd.js",
   "module": "dist/quick-ai-sdk.esm.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/quick-ai-sdk.esm.js",
+    "require": "./dist/quick-ai-sdk.umd.js",
+    "default": "./dist/quick-ai-sdk.esm.js"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build",
