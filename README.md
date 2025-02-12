@@ -7,7 +7,8 @@ Easily integrate AI-powered features into your website with Quick AI SDK.
 
 👉 No need for complex backend modifications or prompt engineering – just plug and play!
 
-📌 API Reference: [Quick AI API Docs](https://api.aidirty.work/docs) [OpenAPI Specification](https://api.aidirty.work/openapi)
+📌 API Reference: [Quick AI API Docs](https://api.aidirty.work/docs)  
+[OpenAPI Specification](https://api.aidirty.work/openapi)
 
 ---
 
@@ -17,6 +18,15 @@ Easily integrate AI-powered features into your website with Quick AI SDK.
 ✅ NSFW image filtering (automatically detects and removes inappropriate images)  
 ✅ Easy integration (works with both frontend and backend)  
 ✅ Works in browsers & Node.js
+
+## 💰 Pricing & API Key
+
+✅ Quick AI API requires an API key for access. You can get one **for free** with a simple sign-up:
+
+👉 [Get Your Free API Key](https://aidirty.work/) (No credit card required, quick sign-up via GitHub or Google!)
+
+🔹 **Free Plan Available** – Start using AI right away!  
+🔹 **Paid Plan (pay as you go)** – For higher limits. Visit [Quick AI Pricing](https://aidirty.work/pricing) for more details.
 
 ---
 
