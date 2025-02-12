@@ -20,8 +20,8 @@ export type OpenAPIConfig = {
 };
 
 export const OpenAPI: OpenAPIConfig = {
-    BASE: 'https://api.aidirty.work',
-    VERSION: '1.0.0',
+    BASE: 'https://api.quickai.work',
+    VERSION: '1.0.3',
     WITH_CREDENTIALS: false,
     CREDENTIALS: 'include',
     TOKEN: undefined,

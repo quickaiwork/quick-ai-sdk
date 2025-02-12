@@ -7,8 +7,8 @@ Easily integrate AI-powered features into your website with Quick AI SDK.
 
 👉 No need for complex backend modifications or prompt engineering – just plug and play!
 
-📌 API Reference: [Quick AI API Docs](https://api.aidirty.work/docs)  
-[OpenAPI Specification](https://api.aidirty.work/openapi)
+📌 API Reference: [Quick AI API Docs](https://api.quickai.work/docs)  
+[OpenAPI Specification](https://api.quickai.work/openapi)
 
 ---
 
@@ -23,10 +23,10 @@ Easily integrate AI-powered features into your website with Quick AI SDK.
 
 ✅ Quick AI API requires an API key for access. You can get one **for free** with a simple sign-up:
 
-👉 [Get Your Free API Key](https://aidirty.work/) (No credit card required, quick sign-up via GitHub or Google!)
+👉 [Get Your Free API Key](https://quickai.work/) (No credit card required, quick sign-up via GitHub or Google!)
 
 🔹 **Free Plan Available** – Start using AI right away!  
-🔹 **Paid Plan (pay as you go)** – For higher limits. Visit [Quick AI Pricing](https://aidirty.work/pricing) for more details.
+🔹 **Paid Plan (pay as you go)** – For higher limits. Visit [Quick AI Pricing](https://quickai.work/pricing) for more details.
 
 ---
 
@@ -104,8 +104,8 @@ This project is licensed under the MIT License – feel free to use it in your p
 
 ## 📮 Need Help?
 
-📘 [API Docs](https://api.aidirty.work/docs)  
+📘 [API Docs](https://api.quickai.work/docs)  
 🐞 Report Issues: [GitHub Issues](https://github.com/quickaiwork/quick-ai-sdk/issues)  
-📧 [Support](https://aidirty.work/support)
+📧 [Support](https://quickai.work/support)
 
 ---

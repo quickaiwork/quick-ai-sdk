@@ -1,14 +1,14 @@
 {
   "name": "quick-ai",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick AI SDK for easy AI integration",
   "url": "https://quickai.work",
   "repository": {
     "type": "git",
     "url": "https://github.com/quickaiwork/quick-ai-sdk.git"
   },
-  "homepage": "https://aidirty.work",
+  "homepage": "https://quickai.work",
   "main": "dist/quick-ai-sdk.umd.js",
   "module": "dist/quick-ai-sdk.esm.js",
   "types": "dist/index.d.ts",
@@ -20,18 +20,14 @@
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build",
-    "generate": "npx openapi-typescript-codegen --input https://api.aidirty.work/openapi --output src/generated"
+    "generate": "npx openapi-typescript-codegen --input https://api.quickai.work/openapi --output src/generated"
   },
   "keywords": [
     "ai",
-    "ai",
-    "tools",
-    "ai",
-    "api",
-    "ai",
-    "moderation",
-    "ai",
-    "transformation"
+    "ai tools",
+    "ai api",
+    "ai moderation",
+    "ai transformation"
   ],
   "author": "",
   "license": "ISC",

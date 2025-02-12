@@ -5,7 +5,7 @@ export abstract class QuickAiSdkBase {
     protected apiKey?: string = undefined;
 
     protected constructor() {
-        OpenAPI.BASE = "https://api.aidirty.work";  // URL API
+        OpenAPI.BASE = "https://api.quickai.work";  // URL API
         OpenAPI.HEADERS = {
             "Content-Type": "application/json",
         }
