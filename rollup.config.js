@@ -7,13 +7,28 @@ export default {
             file: "dist/quick-ai-sdk.umd.js",
             format: "umd",
             name: "QuickAiSdkClient",
-            sourcemap: true,
+            sourcemap: false,
+            exports: "named",
+            globals: {
+                tslib: "tslib",
+            }
+        },
+        {
+            file: "dist/quick-ai-sdk.cjs.js",
+            format: "cjs",
+            sourcemap: false,
+            exports: "named",
         },
         {
             file: "dist/quick-ai-sdk.esm.js",
             format: "es",
-            sourcemap: true,
+            sourcemap: false,
+            exports: "named",
         },
     ],
-    plugins: [typescript()],
+    external: ["tslib"],
+    plugins: [typescript({
+        tsconfig: './tsconfig.json',
+        sourceMap: false,
+    })],
 };

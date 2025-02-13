@@ -1,21 +1,25 @@
 {
   "name": "quick-ai",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Quick AI SDK for easy AI integration",
   "url": "https://quickai.work",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quickaiwork/quick-ai-sdk.git"
+    "url": "git+https://github.com/quickaiwork/quick-ai-sdk.git"
   },
   "homepage": "https://quickai.work",
-  "main": "dist/quick-ai-sdk.umd.js",
+  "main": "dist/quick-ai-sdk.cjs.js",
   "module": "dist/quick-ai-sdk.esm.js",
+  "browser": "dist/quick-ai-sdk.umd.js",
   "types": "dist/index.d.ts",
   "exports": {
-    "import": "./dist/quick-ai-sdk.esm.js",
-    "require": "./dist/quick-ai-sdk.umd.js",
-    "default": "./dist/quick-ai-sdk.esm.js"
+    ".": {
+      "import": "./dist/quick-ai-sdk.esm.js",
+      "require": "./dist/quick-ai-sdk.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "build": "rollup -c",
@@ -29,8 +33,8 @@
     "ai moderation",
     "ai transformation"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Quick AI",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "rollup": "^4.34.4",

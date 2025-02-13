@@ -2,17 +2,32 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "outDir": "./dist",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "dist",
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "allowJs": true
+    "emitDeclarationOnly": true,
+    "sourceMap": false,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": false,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": false,
+    "downlevelIteration": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
   },
   "include": [
-    "src/**/*.ts",
-  ]
+    "src/**/*.ts"
+  ],
 }
